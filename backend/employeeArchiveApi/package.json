@@ -1,0 +1,20 @@
+{
+  "name": "employee-archive-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "员工档案 CloudBase Event Function",
+  "main": "index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test index.test.js monthly.test.js quarterly.test.js",
+    "check": "node --check index.js"
+  },
+  "dependencies": {
+    "@cloudbase/node-sdk": "3.18.3",
+    "@cloudbase/manager-node": "^5.0.0",
+    "ws": "8.22.0"
+  }
+}
